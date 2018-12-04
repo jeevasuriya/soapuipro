@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="194ca762-71f0-4b13-b1d8-d9f25255839f" isOneWay="false" action="add" name="add" bindingOperationName="add" type="Request-Response" outputName="add0Out" inputName="add0In" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="194ca762-71f0-4b13-b1d8-d9f25255839ffileName">add</con:setting></con:settings><con:call id="a306126a-e365-452c-9e87-737e627482a6" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws1.parasoft.com/glue/calculator</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cal:add>
+         <cal:x>1</cal:x>
+         <cal:y>2</cal:y>
+      </cal:add>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="add"/><con:wsrmConfig version="1.2"/></con:call></con:operation>
