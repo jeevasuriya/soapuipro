@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="d3fe9c59-60a0-42e2-8abf-3fded5735fe1" isOneWay="false" action="subtract" name="subtract" bindingOperationName="subtract" type="Request-Response" outputName="subtract3Out" inputName="subtract3In" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="d3fe9c59-60a0-42e2-8abf-3fded5735fe1fileName">subtract</con:setting></con:settings><con:call id="8c874d4f-e92f-4abd-b68d-087c0a5e75b9" name="subtract Request"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws1.parasoft.com/glue/calculator</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cal:subtract>\r
+         <cal:x>?</cal:x>\r
+         <cal:y>?</cal:y>\r
+      </cal:subtract>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="subtract"/></con:call></con:operation>

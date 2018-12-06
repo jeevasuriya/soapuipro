@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="6d680071-a97f-4b47-afae-91a0c5a42d4c" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="ICalculator-multiply-multiply Request TestCase" searchProperties="true" timeout="0" maxResults="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="6d680071-a97f-4b47-afae-91a0c5a42d4cfileName">ICalculator-multiply-multiply-Request-TestCase</con:setting></con:settings><con:testStep type="request" id="4321f3ed-88e7-4df6-97ce-327d13b574d2" name="multiply multiply Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ICalculator</con:interface><con:operation>multiply</con:operation><con:request name="multiply multiply Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="3a0fee8f-619e-4b3b-9561-01b54972761a"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws1.parasoft.com/glue/calculator</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cal:multiply>\r
+         <cal:x>10</cal:x>\r
+         <cal:y>2</cal:y>\r
+      </cal:multiply>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="5b2d34da-f26d-4f5a-8b1c-58e88a24246b" name="SOAP Response"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="multiply"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

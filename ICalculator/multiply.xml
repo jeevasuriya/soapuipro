@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="8a3d1233-e310-4a86-a660-830e605f9d57" isOneWay="false" action="multiply" name="multiply" bindingOperationName="multiply" type="Request-Response" outputName="multiply2Out" inputName="multiply2In" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="8a3d1233-e310-4a86-a660-830e605f9d57fileName">multiply</con:setting></con:settings><con:call id="3cdf7659-e2a5-4fb0-8bb7-c4b88f63069f" name="multiply Request"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws1.parasoft.com/glue/calculator</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cal:multiply>\r
+         <cal:x>?</cal:x>\r
+         <cal:y>?</cal:y>\r
+      </cal:multiply>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="multiply"/></con:call></con:operation>

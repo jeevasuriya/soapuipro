@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="970252b6-5efa-4d3f-bc24-d98ac2e74dfe" isOneWay="false" action="divide" name="divide" bindingOperationName="divide" type="Request-Response" outputName="divide1Out" inputName="divide1In" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="970252b6-5efa-4d3f-bc24-d98ac2e74dfefileName">divide</con:setting></con:settings><con:call id="849a610a-79c3-4e51-9047-efb2cea16994" name="divide Request"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://ws1.parasoft.com/glue/calculator</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <cal:divide>\r
+         <cal:numerator>?</cal:numerator>\r
+         <cal:denominator>?</cal:denominator>\r
+      </cal:divide>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="divide"/><con:wsrmConfig version="1.2"/></con:call></con:operation>
