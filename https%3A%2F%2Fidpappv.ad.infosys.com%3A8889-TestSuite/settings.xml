@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="7185a197-cc1b-49cb-98bc-3f0b7b1e558f" name="https://idpappv.ad.infosys.com:8889 TestSuite" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="7185a197-cc1b-49cb-98bc-3f0b7b1e558ffileName">https%3A%2F%2Fidpappv.ad.infosys.com%3A8889-TestSuite</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
